@@ -1,0 +1,171 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.2",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Object_14",
+            "rotation" : [
+                0.9978581666946411,
+                0,
+                0,
+                0.06541508436203003
+            ],
+            "scale" : [
+                2,
+                2,
+                2
+            ],
+            "translation" : [
+                3.2467100620269775,
+                3.115093231201172,
+                1.1377792358398438
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "pensador1_lowt_baseTexBaked",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0.09399999678134918
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Object_4",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "pensador1_lowt_baseTexBaked_normal",
+            "uri" : "pensador1_lowt_baseTexBaked_normal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "pensador1_lowt_baseTexBaked_baseColor",
+            "uri" : "pensador1_lowt_baseTexBaked_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 10175,
+            "max" : [
+                1.6141061782836914,
+                1.600915789604187,
+                1.4650754928588867
+            ],
+            "min" : [
+                -1.2634551525115967,
+                -2.021052122116089,
+                -1.1838154792785645
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 10175,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 10175,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 10175,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 52194,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 122100,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 122100,
+            "byteOffset" : 122100
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 81400,
+            "byteOffset" : 244200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 81400,
+            "byteOffset" : 325600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 104388,
+            "byteOffset" : 407000
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 511388,
+            "uri" : "statue.bin"
+        }
+    ]
+}
